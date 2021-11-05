@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="css/structure_styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media_styles.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <title>Cosa Vostra test intégration</title>
+</head>
+<body>
+    <article>
+        <main>
+            <!-- INTRO / UPDATE -->
+            <div class="intro flex-end">
+                <div class="intro-update flex-column">
+                    <header>
+                        <h1 id="title">Hey</h1>
+                        <button class="btn-header" onclick="MenuToggle()">
+                            <img class="img-news-header" src="img/icon_menu.png">
+                        </button>
+                    </header>
+                    <!-- MENU -->
+
+                    <nav id="menu" class="nav-menu">
+
+                        <div class="nav-list-link">
+                            <a class="nav-link" href="#">Lorem ipsum</a>
+                            <a class="nav-link" href="#">Dolor sit</a>
+                            <a class="nav-link" href="#">Consectetur</a>
+                            <a class="nav-link" href="#">Adipiscing</a>
+                            <a class="nav-link" href="#">Elit</a>
+                            <a class="nav-link" href="#">Etiam rutrum</a>
+                        </div>
+                        <div class="footer-menu">
+                            <div class="footer-menu-img">
+                                <a href="#"><img src="img/icon_insta.png" class="img-news-header"/></a>
+                                <a href="#"><img src="img/icon_twitter.jpg" class="img-news-header"/></a>
+                            </div>
+                            <p class="contact">Contact</p>
+                        </div>
+                    </nav>
+                    <!-- / MENU -->
+                    
+                    <div class="update">
+                        <img class="update-element" src="https://via.placeholder.com/512/#5c5858"/>
+                        <div class="update-content ">
+                            <p class="p-extra-news">Lorem ipsum dolor sit amet consectetur adipiscing elit etiam</p>
+                            <div class="news-link space-btw">
+                                <a class="a-desc-intro" href="">Rutrum</a>
+                                <p class="p-desc">Aujourd’hui</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="update video">
+                        <video controls class="update-element">
+                            <source src="video/video.webm"
+                                    type="video/webm">
+                            <p>Sorry, your browser doesn't support embedded videos. :'(</p>
+                        </video>
+                        <div class="update-content">
+                            <p class="p-extra-news">Lorem ipsum dolor sit amet consectetur adipiscing elit etiam</p>
+                            <div class="news-link space-btw">
+                                <a class="a-desc-intro" href="">Rutrum</a>
+                                <p class="p-desc">Hier</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- / INTRO / UPDATE -->
+
+
+            <!-- ALL THE NEWS -->
+            <div class="big-container flex-start">
+                <div class="container-news flex-column">
+                    <!-- NEWS HEADER -->
+
+                    <div class="header-container-news space-btw">
+                        <div>
+                            <img class="img-news-header" src="img/icon_insta.png">
+                            <img class="img-news-header" src="img/icon_twitter.jpg">
+                        </div>
+                        <button class="btn-news-header" onclick="MenuToggle()">
+
+                            <img class="img-news-header" src="img/icon_menu.png">
+                        </button>
+                    </div>
+                    <!-- NEWS LIST -->
+
+                    <div class="news first-news flex-row-around">
+                        <div class="news-info">
+                            <p>Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Donec id elit non mi porta gravida at eget metus</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">il ya 5j.</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <!-- EXTRA NEWS -->
+
+                    <div class="extra-news flex-column">
+                        
+                        <p class="p-extra-news">Aenean eu leo quam. venenatis vestibulum rutrum</p>
+
+                        <div class="space-btw">
+                            <a class="a-desc" href="">Rutrum</a>
+                            <div class="flex-row-around">
+                                <a class="a-news" href="">Aujourd’hui</a>
+                                <div class="news-already-seen"></div>
+
+                            </div>
+                        </div>
+                        <img class="extra-news-img" src="https://via.placeholder.com/420/#5c5858"/>
+                    </div>
+                    <!-- / EXTRA NEWS -->
+
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">il y a 3j. </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit etiam</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Donec id elit non mi porta gravida at eget metus</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Hier</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum rutrum</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <!-- NEWSLHEYLETTER -->
+                    <div class="container-newslheytter">
+                        <div class="newslheytter flex-row-around" >
+                            <div>
+                                <p class="p-newslheytter">NewsL<span class="p-newslheytter-hey">hey</span>tter</p>
+                                <div>
+                                    <form action="#" class="flex-column-end">
+                                        <img class="finger f-top" id="fingerTop" src="./img/icon_finger.png" />
+                                        <img class="finger f-left" id="fingerLeft" src="./img/icon_finger.png"/>
+                                        <img class="finger f-bottom" id="fingerBottom" src="./img/icon_finger.png" />
+                                        <input type="text" placeholder="Ton email"/>
+                                        <input class="submit" type="submit" value="Je m'abonne"/>
+                                    </form>
+                                </div>
+
+                                <div class="flex-center">
+                                    <a href="#"><img class="img-news-header" src="./img/icon_insta.png" alt="instagram"/></a>
+                                    <a href="#"><img class="img-news-header" src="./img/icon_twitter.jpg" alt="twitter"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / NEWSLHEYLETTER -->
+                    
+                    <div class="news flex-row-around margin-newslheytter">
+                        <div class="news-info flex-column space-btw">
+                            <p>Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Donec id elit non mi porta gravida at eget metus</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="news flex-row-around">
+                        <div class="news-info">
+                            <p>Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                            <div class="space-btw">
+                                <a class="a-desc" href="">Rutrum</a>
+                                <div class="news-link flex-row-around">
+                                    <a class="a-news" href="">Aujourd’hui</a>
+                                    <div class="news-already-seen"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-div">
+                            <img class="news-img" src="https://via.placeholder.com/108/#5c5858"/>
+                        </div>
+                    </div>
+                    <div class="loader">H<img class="loader-img" src="img/icon_chargement.png" alt="">y</div>
+
+                </div>
+            </div>
+
+            <!-- / ALL THE NEWS -->
+
+        </main>
+    </article>
+    <!-- FOOTER -->
+    <footer class="flex-row-around">
+        <p>Merci Bien :)</p>
+    </footer>
+</body>
+</html>

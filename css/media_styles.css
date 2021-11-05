@@ -1,0 +1,148 @@
+
+@media screen and (max-width: 1300px) {
+  .news-info{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .news {
+    width:auto;
+  }
+  .f-bottom{
+    bottom: 40%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .news p {
+    font-size: 16px;
+  }
+  .extra-news .p-extra-news {
+    font-size: 22px;
+    padding-left: 10px;
+  }
+} 
+
+@media screen and (max-width: 560px) {
+
+  h1{
+    font-size: 15vw;
+    margin:0;
+  }
+  main,.intro {
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  .intro{
+    margin: auto;
+  }
+  .intro-update{
+    padding: 0;
+  }
+  .update{
+    width: auto;
+    margin: 150px 0 -70px 0;
+  }
+  .btn-header{
+    display: inherit;
+    border: none;
+    background: transparent;
+  }
+  .header-container-news{
+    display:none;
+  }
+  .container-news, .intro{
+    width: 100%;
+  }
+
+  .news,.extra-news,.intro-update {
+    max-width: 400px;
+    padding: 0 20px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .container-newslheytter {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .first-news{
+    padding-top: 70px;
+  }
+  .newslheytter{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  
+  * {
+    text-align: left;
+  }
+  .big-container .news, .big-container .extra-news {
+      padding-right: 0;
+  }
+  header{
+    margin-left: -50px;
+  }
+  .p-newslheytter,.p-newslheytter-hey{
+    font-size: large;
+  }
+  .news-info p{
+    padding: 0%;
+  }
+
+  .intro-update{
+    padding-right:0;
+  }
+  .news{
+    flex-wrap: nowrap;
+  }
+} 
+
+/* MENU */
+
+@media screen and (max-width: 960px) {
+  #menu {
+    width: 50vw;
+  }
+  .nav-list-link {
+    margin-left: 40px;
+  }
+  #contactAndSocial {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nav-link {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #menu {
+    width: 100vw;
+    z-index: 1000;
+    top:150px;
+    left: 0;
+    height: calc(100vh - 150px);
+  }
+  .footer-menu{
+    display: flex;
+    width: 100vw;
+    margin-left: 0;
+
+  }
+
+ 
+ 
+}
+

@@ -1,0 +1,324 @@
+html,body,article,main,footer {
+  padding: 0;
+  margin: 0;
+  width:100%;
+
+}
+
+p:hover, a:hover{
+  text-decoration: underline;
+}
+h1{
+  margin: 20px;
+}
+
+header {
+  position: fixed;
+  height: 10%;
+  z-index:200
+
+}
+main{
+  display: flex;
+  bottom: 0;
+}
+
+/* CSS TOOLS*/
+.space-btw{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-row{
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-column{
+  display: flex;
+  flex-flow: column wrap;
+}
+.flex-row-around{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.flex-end{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.flex-start{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.flex-center{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.flex-column-end{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+/* INTRO */
+
+.intro{
+  bottom: 0;
+  margin-right: 40px;
+  width: 45%;
+}
+.intro-update{
+  max-width: 600px;
+}
+.update{
+  z-index: 100;
+  align-self: flex-end;
+  width: 100%;
+  left:100px;
+  bottom: 0;
+  margin: 150px -20px 0 0;
+}
+.update-content{
+  width: 90%;
+  padding: 10px;
+}
+.btn-header{
+  display: none;
+}
+.update-element{
+  width: 100%;
+}
+.news-link{
+  width: 80ù;
+}
+.a-desc, .a-desc-intro{
+  align-self:center
+}
+
+/* NEWS */
+
+.img-news-header{
+  width: 30px;
+  height: 30px;
+  margin: auto 10px;
+  padding: 10px
+}
+.news{
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.news-info{
+  width:70%;
+  height: 80%;
+  margin: -10px;
+}
+.news-div{
+  max-width:208px;
+  right:0
+}
+.news-img{
+  height:100%;
+  max-width:100%;
+  margin:auto;
+}
+.news-already-seen{
+  float: right;
+  margin: auto 5px;
+  border-radius: 100%;
+  width:10px;
+  height:10px;  
+}
+
+/* EXTRA-NEWS */
+
+.extra-news{
+  margin: 0 auto;
+  max-width:420px;
+
+}
+.extra-news-img{
+  margin-top:20px;
+  width:100%;
+}
+
+/* NEWLETTER */
+
+.p-newslheytter{
+  text-align: center;
+}
+.newslheytter{
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  left: 0;
+  width: 100vw;
+  height: 300px;
+}
+.margin-newslheytter {
+    margin-top: 320px;
+}
+
+.finger {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.f-top {
+  position:  absolute;
+  margin-bottom: 6%;
+  margin-left: 15%;
+  transform: rotate(200deg);
+}
+
+.f-left {
+  position:  absolute;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  transform: rotate(330deg);
+}
+.f-bottom {
+  position:  absolute;
+  bottom: 28%;
+  left: 49%;
+  transform: rotate(40deg);
+}
+input{
+  padding: 10px;
+  text-align: center;
+
+}
+.submit{
+  width: 50%;
+  align-self: flex-end;
+}
+
+ /* FOOTER */
+
+footer{
+  height: 100px;
+}
+
+/* MENU */
+
+
+#menu {
+  position: fixed;
+  width: 55vw;
+  top:60px;
+  height: 100vh;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.nav-list-link {
+  display: flex;
+  flex-direction: column;
+  padding:30px
+}
+
+.nav-link {
+  margin: 15px;
+  padding-right: 0;
+}
+
+.nav-link:hover {
+  color: rgb(131, 131, 131);
+}
+
+.footer-menu {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer-menu {
+  display: none;
+}
+
+.footer-menu-img {
+  font-size: 14px;
+  line-height: 140%;
+  opacity: 0.3;
+}
+
+.nav-menu {
+  visibility: hidden;
+}
+
+.footer-menu-img {
+  float:left;
+}
+.contact{
+  align-self: end;
+  margin: auto;
+  padding: auto;
+}
+.removeMenu {
+  visibility: hidden;
+  animation: removeMenu 0.2s ;
+}
+
+@keyframes removeMenu {
+  0% {
+    visibility: visible;
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  100% {
+    visibility: hidden;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+}
+
+.getMenu {
+    visibility: visible;
+    animation: getMenu 0.5s;
+}
+
+@keyframes getMenu {
+  0% {
+    visibility: hidden;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  100% {
+    visibility: visible;
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+}
+
+.loader {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  padding: auto;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.loader-img {
+  animation: loaderRotate .5s infinite;
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes loaderRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
